@@ -58,9 +58,9 @@
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/2048WebGL.loader.js";
       var config = {
-        dataUrl: buildUrl + "/2048WebGL.data.br",
-        frameworkUrl: buildUrl + "/2048WebGL.framework.js.br",
-        codeUrl: buildUrl + "/2048WebGL.wasm.br",
+        dataUrl: buildUrl + "/2048WebGL.data",
+        frameworkUrl: buildUrl + "/2048WebGL.framework.js",
+        codeUrl: buildUrl + "/2048WebGL.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "TwentyFourtyIdle",
@@ -99,7 +99,7 @@
         canvas.style.height = "600px";
       }
 
-      canvas.style.background = "url('" + buildUrl + "/2048WebGL.jpg.br') center / cover";
+      canvas.style.background = "url('" + buildUrl + "/2048WebGL.jpg') center / cover";
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");
