@@ -1,1 +1,1 @@
-# 2048-idle
+# DoubleUp Demo Page
